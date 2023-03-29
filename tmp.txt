@@ -1,0 +1,19 @@
+I am a first-year PhD student at the Machine Learning Department at Carnegie Mellon University. 
+
+Previously, I was a CS master's student at Stanfordi, where I was extremely fortunate to work on the
+ video and healthcare team in the Stanford Vision and Learning Lab under the supervision of Prof. Li Fei-Fei and Dr. Juan Carlos Niebles.
+
+I am really interested in video understanding and would like to build video understanding models that are reliable, efficient and versatile enough for real-world applications. I am currently applying to PhD programs, where I can get more in-depth studies on representation learning, data efficiency, interpretability and reasoning.
+
+
+
+rle_obj = segms[t][c][i]
+if type(rle_obj['counts']) == np.ndarray:
+  # format of our masks: 'counts' are the 4 coordinates of a bbox
+  xmin, ymin, xmax, ymax = rle_obj['counts']
+  m = np.zeros((H, W))
+  m[xmin:xmax+1, ymin:ymax] = 1
+else:
+  # format of the provided mask (in coco format): 'counts' is a byte string
+  m = maskUtils.decode(rle_obj)  # Python COCO API
+
