@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1"><title>Research - Jian Qian</title>
+<meta property="og:title" content="Research - Junhong Shen">
+<meta property="og:type" content="website">
+<meta property="og:image" content="img/james_self.jpg">
+
+<meta property="og:url" content="https://jamesqian11.github.io/research/">
+
+<link rel="stylesheet" href="https://sjunhongshen.github.io/css/style.min.css">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#ffffff">
+<link rel="webmention" href="https://webmention.io/hugocisneros.com/webmention">
+<link rel="pingback" href="https://webmention.io/hugocisneros.com/xmlrpc">
+
+
+<script>function updateMode(){localStorage.theme==="dark"||!("theme"in localStorage)&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")}function toggleMode(){localStorage.theme==="dark"?localStorage.theme="light":localStorage.theme="dark",updateMode()}window.onload=updateMode();function toggleMenu(){let e=document.getElementById("navbar-default");e.classList.contains("hidden")?e.classList.remove("hidden"):e.classList.add("hidden")}</script>
+
+  </head>
+  <body>
+    <header class="md:px-0 px-2">
+        <nav >
+  <div class="container flex flex-wrap justify-between items-center mx-auto">
+    <div class="nav-main my-2.5">
+      <a href="https://sjunhongshen.github.io/" class="nav-title py-2.5 text-2xl text-zinc-600 dark:text-zinc-300 hover:border-b-0">Jian Qian</a>
+    </div>
+    <button type="button"
+            onclick="toggleMenu()"
+            class="inline-flex items-center p-2 ml-3
+                  text-sm text-gray-500
+                  rounded-lg md:hidden hover:bg-gray-100
+                  focus:outline-none focus:ring-2
+                  focus:ring-gray-200 dark:text-gray-400
+                  dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-default"
+            aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor"
+             viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1
+                           0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0
+                           01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0
+                           01-1-1z" clip-rule="evenodd"></path>
+        </svg>
+    </button>
+    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+      <ul class="grid md:grid-flow-col items-center justify-between text-lg my-2.5">
+        
+        <li class="p-2.5 md:first:pl-0 md:border-none border-b list-none">
+          <a class="text-zinc-600 dark:text-zinc-300
+                    hover:border-b-0" href="/about/">About</a>
+        </li>
+        
+        <li class="p-2.5 md:first:pl-0 md:border-none border-b list-none">
+          <a class="text-zinc-600 dark:text-zinc-300
+                    hover:border-b-0" href="/research/">Research</a>
+        </li>
+
+        <li class="p-2.5 md:first:pl-0 md:border-none border-b list-none">
+          <a class="text-zinc-600 dark:text-zinc-300
+                    hover:border-b-0" href="/updates/">Updates</a>
+        </li>
+        
+        <li class="p-2.5 md:first:pl-0 md:border-none border-b list-none">
+          <a class="text-zinc-600 dark:text-zinc-300
+                    hover:border-b-0" href="/posts/">Posts</a>
+        </li>
+        
+        <li class="p-2.5 md:first:pl-0 md:border-none border-b list-none">
+          <a class="text-zinc-600 dark:text-zinc-300
+                    hover:border-b-0" href="/about/cv_v00.pdf">CV</a>
+        </li>
+        
+        <li class="h-7 pl-2.5 pr-0 list-none">
+          <button type="button" onclick="toggleMode()" class="h-full"  aria-label="Toggle between dark and light mode">
+            <img class="h-7 w-7 max-h-full mb-1.5 p-1.5 hidden dark:inline"
+                 id="ligh-mode-button-img"
+                 alt="A sun icon for switching to light mode"
+                 src="https://jamesqian11.github.io/img/light_mode.svg">
+            <img class="h-7 w-7 max-h-full mb-1.5 p-1.5 inline dark:hidden"
+                 id="dark-mode-button-img"
+                 alt="A moon icon for switching to dark mode"
+                 src="https://jamesqian11.github.io/img/dark_mode.svg">
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    </header>
+    <main class="content h-card container mt-2 m-auto
+                 leading-loose md:px-0 px-2 z-0 Page(/research/_index.md)"
+          role="main">
+    <h1 id="resarch">Resarch</h1>
+
+<p>I&rsquo;m interested in machine learning and deep learning in general. My current research focuses mainly on the practical side of ML, i.e., developing effective ML tools and pipelines for diverse applications in real life. I approach this problem from the following aspects:</p>
+<ul>
+<li>
+<p>Automated machine learning (AutoML): I study neural architecture search (NAS) to generate effective and task-specific neural network architectures for different downstream problems.</p>
+</li>
+<li>
+<p>Tranfer learning with pretrained models: how can we leverage existing large-scale pretrained models effectvely for solving problems that are not within the model&rsquo;s pretraining domain and modality?</p>
+</li>
+</ul>
+<p> </p>
+
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+
+    
+<h2 id="publications">Publications</h2>
+    
+<!-- paper 1.0 -->   
+        <div class="pub-wrapper w-full inline-flex flex-wrap items-center
+            my-1.5 p-2.5 rounded bg-slate-100 dark:bg-slate-700 box-border
+            leading-tight justify-around" id="cross-modal-fine-tuning-align-then-refine"
+     itemscope itemtype="http://schema.org/ScholarlyArticle">
+    <div class="pub-image basis-40 grow-0 shrink" itemprop="image"
+         itemscope itemtype="http://schema.org/ImageObject">
+        <img alt="Cross-Modal Fine-Tuning: Align then Refine paper illustration"
+             itemprop="url" src="img/orca.png"
+             class="w-full"/>
+    </div>
+    <div class="publication grow shrink-2 basis-3/4 my-1.5 mx-2">
+        
+        <b><span itemprop="author">Junhong Shen</span></b>,
+        
+        <span itemprop="author">Liam Li, Lucio Dery, Corey Staten, Mikhail Khodak, Graham Neubig</span>,
+        
+        
+        <span itemprop="author">Ameet Talwalkar</span>
+        
+        <br>
+        <b>
+            <a href="https://arxiv.org/abs/2302.05738">
+                <span itemprop="name">Cross-Modal Fine-Tuning: Align then Refine</span>
+            </a>
+        </b>
+        <meta itemprop="headline" content="Cross-Modal Fine-Tuning: Align then Refine"/>
+        <br>
+        
+        <div>
+        In <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+            <i itemprop="name">ICML</i></span>,
+        
+        <meta itemprop="datePublished" content="2023 (Oral)">2023 <span style="color: red;">(Oral)</span>.
+        </div><div itemprop="description" class="pub-description text-sm my-1.5">ORCA is a general cross-modal fine-tuning framework that extends the applicability of a single large-scale pretrained model to diverse modalities. It adapts to a target task via an align-then-refine workflow. Given the target input, ORCA first learns an embedding network that aligns the embedded feature distribution with the pretraining modality. The pretrained model is then fine-tuned on the embedded data to exploit the knowledge shared across modalities.</div><div class="pub-link-wrapper mt-1.5 text-sm"><span class="publication-link bg-sky-600
+                         dark:bg-sky-700 rounded-sm p-1
+                         dark:hover:bg-sky-500
+                         hover:bg-sky-800 mr-1"><a class="border-none
+                         text-white
+                         dark:text-zinc-200
+                         hover:text-gray-900
+                          hover:dark:text-gray-800"
+                   itemprop="mainEntityOfPage" href="https://arxiv.org/abs/2302.05738">paper</a></span><span class="publication-link bg-sky-600
+                         dark:bg-sky-700 rounded-sm p-1
+                         dark:hover:bg-sky-500
+                         hover:bg-sky-800 mr-1"><a class="border-none
+                         text-white
+                         dark:text-zinc-200
+                         hover:text-gray-900
+                          hover:dark:text-gray-800"
+                   itemprop="mainEntityOfPage" href="https://github.com/sjunhongshen/ORCA">code</a></span><span class="publication-link bg-sky-600
+                         dark:bg-sky-700 rounded-sm p-1
+                         dark:hover:bg-sky-500
+                         hover:bg-sky-800 mr-1"><a class="border-none
+                         text-white
+                         dark:text-zinc-200
+                         hover:text-gray-900
+                          hover:dark:text-gray-800"
+                   itemprop="mainEntityOfPage" href="https://twitter.com/atalwalkar/status/1625595956598022166">tweet</a></span><span class="publication-link cursor-pointer
+                         bg-sky-600 dark:bg-sky-700
+                         hover:bg-sky-800
+                         dark:hover:bg-sky-500
+                         text-white
+                         dark:text-zinc-200
+                         dark:hover:text-gray-800
+                         hover:text-gray-900
+                         rounded-sm p-1 mr-1"><button class="open-modal text-inherit"
+                        data-target="#open-modal-cross-modal-fine-tuning-align-then-refine">cite</button></span></div>
+    </div>
+</div>  
+    
+<!-- paper 1.1 -->     
+<div id="#open-modal-cross-modal-fine-tuning-align-then-refine"
+     class="modal-window bg-tp-black invisible fixed top-0 left-0
+            right-0 bottom-0 transition-all pointer-events-none z-50">
+    <div class="absolute top-1/2 left-1/2 p-8 bg-white
+                dark:bg-neutral-700
+
+                max-w-full
+                rounded-md max-w-4/5 -translate-x-1/2 -translate-y-1/2">
+        <button id="#close-modal-cross-modal-fine-tuning-align-then-refine" title="Close" class="modal-close rounded-sm p-2">✕</button>
+        <h3>Cite <i>Cross-Modal Fine-Tuning: Align then Refine</i></h3>
+        <button class="modal-copy-citation pr-2 pl-1 my-2 ml-2
+                       bg-sky-600 dark:bg-sky-700 rounded-sm
+                       text-white
+                       dark:text-zinc-200
+                       dark:hover:text-gray-800
+                       hover:text-gray-900
+                       hover:bg-sky-800
+                       disabled:bg-neutral-500
+                       hover:disabled:text-white
+                       dark:hover:disabled:text-zinc-200
+                       dark:disabled:bg-neutral-500
+                       dark:hover:bg-sky-500" id="#copy-36507b44">Copy to clipboard</button>
+        <pre class="bg-slate-100 dark:bg-slate-800"><code id="36507b44">@misc{shen2023orca,
+ author = {Shen, Junhong and Li, Liam and Dery, Lucio M. and Staten, Corey and Khodak, Mikhail and Neubig, Graham and Talwalkar, Ameet},
+ title = {Cross-Modal Fine-Tuning: Align then Refine},
+ publisher = {arXiv},
+ year = {2023},
+ url = {https://arxiv.org/abs/2302.05738}
+ }</code></pre>
+    </div>
+</div>
+
+    
+    </main>
+    <footer class="footer container h-10 text-center mt-1">
+<hr class="my-4">
+  <ul class="pl-0 mt-1">
+    
+    <li class="ml-2 first:before:content-none before:content-['•']
+               inline-block list-none">
+      <a class="ml-2 text-neutral-800
+                dark:text-neutral-400 border-none"
+          href="https://github.com/hugcis/hugo-astatine-theme">Code</a>
+    </li>
+    <li class="ml-2 first:before:content-none before:content-['•']
+                text-neutral-800 dark:text-neutral-400 inline-block list-none">
+      <span class="ml-2">© Jian Qian 2023</span>
+    </li>
+  </ul>
+</footer>
+
+
+  </body>
+</html>
